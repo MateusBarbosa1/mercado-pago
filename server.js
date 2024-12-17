@@ -31,7 +31,7 @@ app.get('/', (req,res) => {
 app.post('/process_payment', async (req,res) => {
     const paymentData = {
         transaction_amount: Number(req.body.transactionAmount),
-        description: 'Pagamento de 100 R$',
+        description: 'Pagamento de 1 R$',
         payment_method_id: 'pix',
         payer: {
           email: req.body.email,
