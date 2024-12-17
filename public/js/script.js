@@ -1,4 +1,4 @@
-const mp = new MercadoPago("TEST-fe4f1100-001d-4564-a4bf-47b61f7ed3f7");
+const mp = new MercadoPago("APP_USR-7ccfafe6-a834-49bb-b68c-13ebbfffcdb9");
 
 
 (async function getIdentificationTypes() {

@@ -5,8 +5,11 @@ const bodyParser = require('body-parser');
 const app = express();
 const path = require('path');
 
+const dotenv = require('dotenv');
+dotenv.config();
+
 const client = new MercadoPagoConfig({
-    accessToken: 'TEST-7442416430684062-120114-d99ffc4f4465671bd57ee1682cc5b91c-2036630497', 
+    accessToken: process.env.ACCESS_TOKEN, 
     options: {
         timeout: 5000,
     }
