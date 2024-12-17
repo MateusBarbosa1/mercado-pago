@@ -9,7 +9,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 const client = new MercadoPagoConfig({
-    accessToken: process.env.ACCESS_TOKEN, 
+    accessToken: 'APP_USR-7442416430684062-120114-924efd9d2884ab36e2637afb5aaa7bfd-2036630497', 
     options: {
         timeout: 5000,
     }
